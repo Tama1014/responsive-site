@@ -4,13 +4,12 @@
 $baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 
 
-// colors
+/*colors
+------------------------------------------------------------*/
 $baseColor:#e6f7e3;
 $subColor: #ffffff;
 $keyColor: #DB6278;
 $fontColor: #0d5b1d;
-
-
 
 /* Base
 ------------------------------------------------------------*/
@@ -27,8 +26,12 @@ body{
 }
 
 a {
-  @include link-colors($keyColor, darken($keyColor, 10%), lighten($keyColor, 5%), darken($keyColor, 10%));
+  @include link-colors($keyColor, darken($keyColor, 30%), lighten($keyColor, 5%), darken($keyColor, 10%));
   text-decoration: none;
+}
+.flexible-images {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Align

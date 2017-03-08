@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
+/*colors
+------------------------------------------------------------*/
 /* Base
 ------------------------------------------------------------*/
 html {
@@ -19,9 +21,13 @@ a {
   a:visited {
     color: #d13954; }
   a:hover {
-    color: #d13954; }
+    color: #851f31; }
   a:active {
     color: #e0778a; }
+
+.flexible-images {
+  max-width: 100%;
+  height: auto; }
 
 /* Align
 ------------------------------------------------------------*/
