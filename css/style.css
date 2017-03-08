@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #0d5b1d;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #e6f7e3; }
+
+a {
+  color: #DB6278;
+  text-decoration: none; }
+  a:visited {
+    color: #d13954; }
+  a:hover {
+    color: #d13954; }
+  a:active {
+    color: #e0778a; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center, section .container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.Merriweather, #Spring h1, .next {
+  font-family: 'Merriweather', serif; }
+
+.uppercase, #Spring h1 {
+  text-transform: uppercase; }
+
+/* Header
+------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .flexible-images {
+    max-width: auto;
+    height: 250px;
+    background-position: center;
+    width: 100%;
+    height: 100%; } }
+@media (min-width: 1025px) {
+  .flexible-images {
+    max-width: auto;
+    height: 500px;
+    background-position: center;
+    width: 100%;
+    height: 100%; } }
+/* main
+------------------------------------------------------------*/
+#Spring h1 {
+  color: #DB6278;
+  font-size: 4rem; }
+#Spring h2 {
+  color: #e58b9c;
+  font-size: 2.5rem; }
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 60px 0; }
+  section .container {
+    width: 90%; }
+
+/* Spring
+------------------------------------------------------------*/
+#Spring .container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+#Spring h3 {
+  color: #338325;
+  margin-bottom: 10px;
+  font-size: 2rem; }
+#Spring .Spring-box {
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff; }
+
+@media (min-width: 1025px) {
+  #Spring .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between; }
+  #Spring .Spring-box {
+    margin: 10px;
+    padding: 20px; } }
+/* next
+------------------------------------------------------------*/
+.next {
+  background-color: #DB6278;
+  padding: 100px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem; }
+
+.button {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+  background-color: #ffffcc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+/* Footer
+------------------------------------------------------------*/
+footer {
+  background-color: #eeb5bf;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #FFF; }
+
+/*# sourceMappingURL=style.css.map */
