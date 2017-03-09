@@ -58,25 +58,20 @@ a {
 
 /* Header
 ------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-.flexible-images {
-  max-width: auto;
+.mainphoto {
+  background-image: url("../img/img.jpg");
   height: 250px;
-  background-position: center ;
   width: 100%;
-  height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
-}
-@media (min-width: 1025px) {
-.flexible-images {
-  max-width: auto;
+  
+@media screen and(min-width: 769px) {
+.mainphoto {
   height: 500px;
-  background-position: center ;
-  width: 100%;
-  height: 100%;
 }
 }
-    
+
 /* main
 ------------------------------------------------------------*/
 #Spring {
@@ -101,6 +96,7 @@ section {
     @extend .block-center;
   }
 }
+
 /* Spring
 ------------------------------------------------------------*/
 #Spring {
@@ -121,10 +117,9 @@ h3 {
     background-color: $subColor;
     }
    }
-
-   @media (min-width: 1025px) {
-       #Spring {
-.container {
+   @media (min-width: 769px) {
+#Spring {
+ .container {
     @include flex-direction(row);
       justify-content: space-between;
   }
@@ -163,5 +158,4 @@ footer {
   text-align: center;
   font-size: 0.5rem;
   color: #FFF;
-}
-
+  }
